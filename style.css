@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding-bottom: 1.5rem;
+
+}
+
+.banner-text, .article-text {
+  margin: auto;
+  max-width: 800px;
+  min-width: 300px;
+  padding: 0 2.5rem;
+}
+
+p {
+  font-size: 1.05rem;
+  font-family: 'Lora', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.01rem;
+  color: #494949;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 1.7;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.7rem;
+  color: #A0A0A0;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  margin: 0;
+}
+
+.banner-text {
+  color: white;
+  padding-top: 9.4rem;
+  padding-bottom: 9.4rem;
+}
+
+.banner-text > h2 {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.article-text {
+  margin-top: 1.5rem;
+  /* margin: 0 auto; Do I need this? */
+}
+
+.styled-link {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+  color: #636363;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(233, 253, 240, 1),
+    rgba(233, 253, 240, 1));
+}
+
+.styled-link:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(125, 255, 179, 1),
+    rgba(125, 255, 179, 1));
+}
